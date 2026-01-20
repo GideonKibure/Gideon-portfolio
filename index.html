@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gideon Joseph Kibure - Software Developer & Mechatronics Engineer</title>
+    <meta name="description" content="Professional portfolio of Gideon Joseph Kibure, Software Developer and Mechatronics Engineering Student. Specializing in modern web development and digital solutions.">
+    <meta name="keywords" content="Software Developer, Web Development, Mechatronics, Gideon Kibure, Frontend Developer, UI/UX Design">
+    <meta name="author" content="Gideon Joseph Kibure">
+    <meta property="og:title" content="Gideon Joseph Kibure - Software Developer">
+    <meta property="og:description" content="Professional Software Developer & Mechatronics Engineering Student">
+    <meta property="og:type" content="website">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+</head>
+<body>
+    <!-- Network Background -->
+    <div class="network-background">
+        <canvas id="networkCanvas"></canvas>
+        <div class="network-overlay"></div>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/255692713993?text=Hello%20Gideon,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." 
+       class="whatsapp-float" 
+       target="_blank"
+       aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with me!</span>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo" data-aos="fade-down">
+                <span class="logo-text">Gideon</span>
+                <span class="logo-highlight">Kibure</span>
+            </div>
+            
+            <ul class="nav-menu" data-aos="fade-down">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="100">
+                <h4 class="subtitle">SOFTWARE DEVELOPER & ENGINEER</h4>
+                <h1 class="title">Gideon Joseph <span class="highlight">Kibure</span></h1>
+                <p class="description">
+                    Turning complex challenges into awesome engineered digital solutions where 
+                    precision code meets visionary design.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-aos="fade-right" data-aos-delay="200">
+                        View Projects
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary" data-aos="fade-left" data-aos-delay="200">
+                        Contact Me
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+                
+                <div class="contact-info" data-aos="fade-up" data-aos-delay="300">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+255 692 713 993</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>gideonkibure@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="100">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="gideon_kibure.jpg" alt="Gideon Joseph Kibure">
+                        <div class="floating-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="profile-badge">
+                        <i class="fas fa-code"></i>
+                        <span>Let's turn your challenge into your next big win.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">ABOUT ME</h4>
+                <h2 class="section-title">Innovating Through <span class="highlight">Code & Engineering</span></h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>Meet <strong>Gideon Joseph Kibure</strong> where software skill meets engineering discipline. 
+                    <br>As a developer and Mechatronics student in Tanzania, I deliver robust, innovative systems that scale.</p>
+                    <p>Whether it’s a dynamic web application or an automated physical-digital interface, 
+                       I build solutions engineered to perform.</p>
+                    
+                    <div class="education-info">
+                        <div class="education-item" data-aos="zoom-in" data-aos-delay="100">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Mechatronics Engineering</h4>
+                                <p>2nd Year Student</p>
+                            </div>
+                        </div>
+                        <div class="education-item" data-aos="zoom-in" data-aos-delay="200">
+                            <i class="fas fa-laptop-code"></i>
+                            <div>
+                                <h4>Software Development</h4>
+                                <p>2+ Years Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats" data-aos="fade-left">
+                    <div class="stat-grid">
+                        <div class="stat-card" data-aos="flip-up" data-aos-delay="100">
+                            <div class="stat-number" data-count="12">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card" data-aos="flip-up" data-aos-delay="200">
+                            <div class="stat-number" data-count="10">0</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-card" data-aos="flip-up" data-aos-delay="300">
+                            <div class="stat-number" data-count="2">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card" data-aos="flip-up" data-aos-delay="400">
+                            <div class="stat-number" data-count="51">0</div>
+                            <div class="stat-label">Code Commits/Month</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">TECHNICAL EXPERTISE</h4>
+                <h2 class="section-title">Core <span class="highlight">Competencies</span></h2>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-aos="fade-right" data-aos-delay="150">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-right" data-aos-delay="200">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-right" data-aos-delay="250">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-server"></i> Backend & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-aos="fade-right" data-aos-delay="250">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-right" data-aos-delay="300">
+                            <span class="skill-name">Firebase</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-right" data-aos-delay="350">
+                            <span class="skill-name">Git/GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="fas fa-cogs"></i> Engineering Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-aos="fade-right" data-aos-delay="350">
+                            <span class="skill-name">CAD Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-right" data-aos-delay="400">
+                            <span class="skill-name">Embedded Systems</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-right" data-aos-delay="450">
+                            <span class="skill-name">IoT Development</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">WHAT I OFFER</h4>
+                <h2 class="section-title">Professional <span class="highlight">Services</span></h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                        <span class="service-badge">Popular</span>
+                    </div>
+                    <h3>Custom Web Development</h3>
+                    <p>Building responsive, modern websites tailored to your business needs with clean code and best practices.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Responsive Design</span>
+                        <span><i class="fas fa-check"></i> SEO Optimized</span>
+                        <span><i class="fas fa-check"></i> Fast Loading</span>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                        <span class="service-badge free">Growth</span>
+                    </div>
+                    <h3>Landing Page Development</h3>
+                    <p>Building a high-converting landing page that turns visitors into customers fast.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Communicate value</span>
+                        <span><i class="fas fa-check"></i> Drive action</span>
+                        <span><i class="fas fa-check"></i> Clarity above all</span>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                        <span class="service-badge">Hot</span>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive user interfaces and engaging user experiences that drive conversions.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> User Research</span>
+                        <span><i class="fas fa-check"></i> Wireframing</span>
+                        <span><i class="fas fa-check"></i> Prototyping</span>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="service-icon">
+                        <i class="fas fa-sync-alt"></i>
+                        <span class="service-badge free">Modern</span>
+                    </div>
+                    <h3>Website Redesign & Modernization</h3>
+                    <p>Bringing your website into the modern era fast, mobile-ready, and ready to grow.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Speed Optimization</span>
+                        <span><i class="fas fa-check"></i> Updated contact forms</span>
+                        <span><i class="fas fa-check"></i> Basic on-page SEO setup</span>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                        <span class="service-badge">Innovative</span>
+                    </div>
+                    <h3>IoT & Automation</h3>
+                    <p>Building smart solutions connecting hardware and software for automation and monitoring.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Sensor Integration</span>
+                        <span><i class="fas fa-check"></i> Real-time Data</span>
+                        <span><i class="fas fa-check"></i> Remote Control</span>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                        <span class="service-badge free">24/7</span>
+                    </div>
+                    <h3>Website Maintenance</h3>
+                    <p>Ongoing support, security updates, and performance optimization for your digital assets.</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Security Updates</span>
+                        <span><i class="fas fa-check"></i> Performance Tuning</span>
+                        <span><i class="fas fa-check"></i> Regular Backups</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">PORTFOLIO</h4>
+                <h2 class="section-title">Recent <span class="highlight">Projects</span></h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="images/dar-school.png" alt="Analytics Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Business Analytics Dashboard</h3>
+                        <p>Real-time data visualization platform with interactive charts and reporting tools.</p>
+                        <a href="https://daressalaamislamicsecondaryschool.vercel.app/" class="project-link" target="_blank">
+                            View Details 
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="images/frogs-hub.png" alt="E-commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Vue.js</span>
+                                <span>Express</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Modern E-commerce Platform</h3>
+                        <p>Full-featured online store with payment processing and inventory management.</p>
+                        <a href="https://frogstechhub.vercel.app/" class="project-link" target="_blank">
+                            View Details 
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="IoT Smart Home">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Raspberry Pi</span>
+                                <span>MQTT</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>IoT Smart Home System</h3>
+                        <p>Home automation system with remote control and energy monitoring capabilities.</p>
+                        <a href="#" class="project-link" target="_blank">
+                            View Details 
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h4 class="section-subtitle">GET IN TOUCH</h4>
+                <h2 class="section-title">Let's <span class="highlight">Collaborate</span></h2>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone Number</h4>
+                                <p>+255 692 713 993</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Address</h4>
+                                <p>gideon@kibure.dev</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Tanzania, East Africa</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/255692713993" aria-label="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo" data-aos="fade-up">
+                        <span class="logo-text">Gideon</span>
+                        <span class="logo-highlight">Kibure</span>
+                    </div>
+                    <p class="footer-tagline" data-aos="fade-up" data-aos-delay="100">
+                        Building the future with code and engineering precision.
+                    </p>
+                </div>
+                
+                <div class="footer-info">
+                    <div class="footer-contact" data-aos="fade-up" data-aos-delay="200">
+                        <h4>Get In Touch</h4>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+255 692 713 993</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>gideon@kibure.dev</span>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links" data-aos="fade-up" data-aos-delay="300">
+                        <h4>Quick Links</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <div class="footer-social" data-aos="fade-up" data-aos-delay="400">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/255692713993" aria-label="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <p class="copyright" data-aos="fade-up" data-aos-delay="500">
+                        © <span id="currentYear"></span> Gideon Joseph Kibure. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
