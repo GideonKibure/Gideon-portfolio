@@ -164,6 +164,17 @@ body {
     }
 }
 
+/* For a visible icon element (if you want to display it on page) */
+.favicon-display {
+    width: 16px; /* Standard favicon size */
+    height: 16px;
+    background-image: url('images/computer-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* ===== CONTAINER ===== */
 .container {
     width: 100%;
@@ -494,7 +505,6 @@ p {
     object-fit: cover;
     border-radius: 50%;
     transition: var(--transition-medium);
-    filter: grayscale(20%);
 }
 
 .profile-image:hover img {
@@ -522,7 +532,7 @@ p {
 }
 
 .floating-dots span:nth-child(1) {
-    top: 10%;
+    top: 15%;
     left: 20%;
     animation-delay: 0s;
 }
