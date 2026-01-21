@@ -409,7 +409,7 @@ p {
 
 .subtitle {
     color: var(--light-blue);
-    font-size: 0.9rem;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 20px;
@@ -418,7 +418,7 @@ p {
 
 .hero .title {
     margin-bottom: 30px;
-    animation: titleGlow 3s ease-in-out infinite;
+    animation: titleGlow 4s ease-in-out infinite;
 }
 
 @keyframes titleGlow {
